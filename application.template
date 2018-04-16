@@ -1,0 +1,1 @@
+spring.datasource.password={{ with secret "secret/poc/db/pass" }}{{ .Data.value }}{{ end }}
